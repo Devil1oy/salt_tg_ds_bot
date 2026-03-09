@@ -222,4 +222,5 @@ def handle_group(message):
 
 def run_telegram_bot():
     print("🤖 Telegram бот запущен...")
+    bot.remove_webhook()
     bot.polling(none_stop=True)
